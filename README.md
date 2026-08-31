@@ -1,53 +1,51 @@
-<div align="center">
+# Bill-System
 
-<img src="logo.jpg" alt="Bill-System Banner" width="800"/>
+> A modern invoice and billing application built with Next.js and TypeScript.
 
-# 🧾 Bill-System (Invoicing & Financial Management)
+Bill-System provides a focused interface for creating and managing invoices, organizing customer information, calculating billing totals, and presenting financial data through a responsive dashboard.
 
-A full-stack, enterprise-grade invoicing and billing system built with Next.js, TypeScript, and Tailwind CSS. Streamlines invoice generation, client records, tax calculations, and PDF financial exports.
+## Features
 
-[![Next.js](https://img.shields.io/badge/Next.js-15-black?style=for-the-badge&logo=next.js&logoColor=white)](https://nextjs.org/)
-[![React](https://img.shields.io/badge/React-19-61DAFB?style=for-the-badge&logo=react&logoColor=black)](https://react.dev/)
-[![TypeScript](https://img.shields.io/badge/TypeScript-5.0-3178C6?style=for-the-badge&logo=typescript&logoColor=white)](https://www.typescriptlang.org/)
-[![TailwindCSS](https://img.shields.io/badge/TailwindCSS-3.4-38B2AC?style=for-the-badge&logo=tailwind-css&logoColor=white)](https://tailwindcss.com/)
-[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg?style=for-the-badge)](https://opensource.org/licenses/MIT)
+- Invoice creation and line-item management
+- Customer/client information management
+- Tax and discount calculations
+- Billing status and financial summaries
+- Printable/exportable invoice workflow
+- Responsive Tailwind CSS interface
 
-</div>
+## Tech Stack
 
----
+- Next.js
+- React
+- TypeScript
+- Tailwind CSS
+- Component-based UI architecture
 
-## âœ¨ Features
+## Project Structure
 
-- ðŸ“‘ **Comprehensive Invoice Builder**: Add customized line items, quantity adjustments, tax calculations, and discount rules.
-- ðŸ‘¥ **Client & Customer Directory**: Save and manage client profiles, contact information, and billing histories.
-- ðŸ–¨ï¸ **Print & PDF Export**: Instant client-ready PDF invoice generation with corporate branding.
-- ðŸ“Š **Financial Dashboard**: Real-time revenue summaries, pending payment tracking, and status filtering (Paid, Pending, Overdue).
-- ðŸŽ¨ **Modern Glassmorphic UI**: High-contrast, responsive layout with dark/light mode support.
+```text
+Bill-System/
+├── my-invoice-app/     # Next.js application
+├── logo.jpg            # Repository branding
+├── .gitignore
+└── README.md
+```
 
----
+## Getting Started
 
-## ðŸ› ï¸ Tech Stack
-
-- **Framework**: Next.js (App Router), React 19
-- **Language**: TypeScript
-- **UI & Styling**: Tailwind CSS, Lucide Icons, Shadcn UI Components
-- **State & Data**: Client-side state & local persistence
-
----
-
-## ðŸš€ Quick Start
-
-`ash
+```bash
 git clone https://github.com/Karthik751-MR/Bill-System.git
 cd Bill-System/my-invoice-app
 npm install
 npm run dev
-`
+```
 
-Visit http://localhost:3000 to access the billing dashboard.
+Open `http://localhost:3000`.
 
----
+## Environment Variables
 
-## ðŸ‘¤ Author
+If you add external services, keep credentials in `.env.local` and provide non-secret variable names in `.env.example`. Never commit API keys or private credentials.
 
-- **Karthik** - [@Karthik751-MR](https://github.com/Karthik751-MR)
+## Author
+
+**Karthik Raj M R** — [@Karthik751-MR](https://github.com/Karthik751-MR)
