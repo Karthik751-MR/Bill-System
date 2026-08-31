@@ -1,6 +1,8 @@
-﻿<div align="center">
+<div align="center">
 
-# ðŸ§¾ Bill-System (Invoicing & Financial Management)
+<img src="logo.jpg" alt="Bill-System Banner" width="800"/>
+
+# 🧾 Bill-System (Invoicing & Financial Management)
 
 A full-stack, enterprise-grade invoicing and billing system built with Next.js, TypeScript, and Tailwind CSS. Streamlines invoice generation, client records, tax calculations, and PDF financial exports.
 
